@@ -36,3 +36,17 @@ lerna-debug.log*
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+/cdk-nest/.venv
+/cdk-nest/venv
+*.egg-info
+
+# CDK asset staging directory
+/import-service/cdk.out
+/product-service/cdk.out
+.cdk.staging
+.gitignore
+.env
