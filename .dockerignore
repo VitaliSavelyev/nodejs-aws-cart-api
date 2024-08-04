@@ -1,0 +1,10 @@
+node_modules
+.env
+npm-debug.log
+dist
+docker-compose*.yml
+.git
+.DS_Store
+Thumbs.db
+test
+.elasticbeanstalk
